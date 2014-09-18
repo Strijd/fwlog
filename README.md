@@ -4,7 +4,7 @@ A simple perl script that will make  monitoring pflog0 a bit easier.
 
 Its  based on a script I saw ~7 years ago by "raptor".
 
-Instillation:
+Install:
 
 -Download the script and copy it to /usr/local/bin dir
 
@@ -26,16 +26,6 @@ Instillation:
   
   -Make sure you install perl module  : Net::Nslookup;
   
-  run it : 
-  
-  # OpenBSD:
-  tcpdump -lnetv -r /var/log/pflog | fwlog
-  tcpdump -lnetvi pflog0 | fwlog
-  
-  # FreeBSD/pfSENSE:
-  tcpdump -netl -r /var/log/pflog | fwlog
-  tcpdymp -netli pflog0 | fwlog 
-  
-
+  run it 
   
   
