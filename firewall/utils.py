@@ -54,10 +54,6 @@ def mylogger(fn):
 
 
 class Map(dict):
-    """
-    Example:
-    m = Map({'first_name': 'Eduardo'}, last_name='Pool', age=24, sports=['Soccer'])
-    """
 
     def __init__(self, *args, **kwargs):
         super(Map, self).__init__(*args, **kwargs)
